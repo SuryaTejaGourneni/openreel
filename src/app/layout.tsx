@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -11,6 +11,14 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 export const metadata: Metadata = {
   title: { default: "OpenReel — Free movies, forever", template: "%s · OpenReel" },
   description: "Stream public-domain classics and Creative Commons films for free. No subscription, no ads.",
+  applicationName: "OpenReel",
+  appleWebApp: { capable: true, title: "OpenReel", statusBarStyle: "black" },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#141414",
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default async function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

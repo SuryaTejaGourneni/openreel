@@ -34,6 +34,18 @@ The catalog is generated from Internet Archive item metadata:
 
 Only add titles that are verifiably public domain (in the countries you serve) or licensed for free redistribution (e.g. CC BY / CC BY-SA / CC0).
 
+## Deploying (Fly.io)
+
+The app runs as a single Node server with SQLite on a persistent Fly volume (`/data`).
+
+```bash
+fly launch --no-deploy --copy-config --name <app-name>   # first time only
+fly volumes create openreel_data --size 1 --region iad   # first time only
+fly deploy
+```
+
+It is installable as a home-screen app on phones, tablets and desktops (web app manifest + icons).
+
 ## Scripts
 
 | Command | Description |
