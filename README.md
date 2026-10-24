@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# OpenReel
 
-## Getting Started
+A free, Netflix-style streaming platform for public-domain and Creative Commons films. No subscriptions and no ads. The videos are streamed directly from the [Internet Archive](https://archive.org).
 
-First, run the development server:
+## Features
+
+- Netflix-style home page: a featured hero, genre rows, "Continue watching" and "My List"
+- Title pages with "More like this" suggestions, plus license and source credits for every film
+- A player that plays MP4 and HLS (`.m3u8`) files (HLS uses `hls.js` lazily), resumes where you left off and saves your progress every 10s
+- Search by title, genre, year or description; a browse page you can filter by genre
+- Email/password accounts (bcrypt hashes, httpOnly session cookies that are stored hashed in SQLite)
+- An About page listing the license and source of every title
+
+## Stack
+
+Next.js 15 (App Router, server actions) · TypeScript · Tailwind CSS v4 · SQLite (`better-sqlite3`) · zod
+
+## Getting started
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev        # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The SQLite database is created at `data/openreel.db` on first request. Titles from `data/catalog.json` are upserted into it at startup. To store the database somewhere else, set `DATABASE_PATH`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Managing the catalog
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The catalog is generated from Internet Archive item metadata:
 
-## Learn More
+1. Add an entry to `data/sources.json`. It needs the Archive identifier (`id`), `title`, `year`, `genres` and `description`, and can optionally set `featured`, `license` and `artworkAt` (in seconds).
+2. Run `npm run catalog`. This fetches metadata, picks the best browser-playable H.264 MP4 and writes `data/catalog.json`.
+3. Run `npm run artwork`. This uses `ffmpeg` to grab a still frame from each film into `public/artwork/` for cards and the hero.
 
-To learn more about Next.js, take a look at the following resources:
+Only add titles that are verifiably public domain (in the countries you serve) or licensed for free redistribution (e.g. CC BY / CC BY-SA / CC0).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deploying (Fly.io)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The app runs as a single Node server with SQLite on a persistent Fly volume (`/data`).
 
-## Deploy on Vercel
+```bash
+fly launch --no-deploy --copy-config --name <app-name>   # first time only
+fly volumes create openreel_data --size 1 --region iad   # first time only
+fly deploy
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+It is installable as a home-screen app on phones, tablets and desktops (web app manifest + icons).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Scripts
+
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Dev server |
+| `npm run build` / `npm start` | Production build / server |
+| `npm run lint` | ESLint |
+| `npm run typecheck` | TypeScript |
+| `npm run catalog` | Regenerate `data/catalog.json` from `data/sources.json` |
+| `npm run artwork` | Extract artwork frames (needs `ffmpeg`) |
