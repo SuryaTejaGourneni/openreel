@@ -1,0 +1,494 @@
+[
+  {
+    "slug": "sintel",
+    "title": "Sintel",
+    "year": 2010,
+    "description": "A lonely young woman named Sintel searches the world for the baby dragon she once rescued and raised, facing a far darker truth at the end of her journey.",
+    "genres": [
+      "Animation",
+      "Open Movies",
+      "Fantasy"
+    ],
+    "durationSeconds": 888,
+    "videoUrl": "https://archive.org/download/Sintel/sintel-2048-stereo.mp4",
+    "posterUrl": "https://archive.org/download/Sintel/Poster.jpg",
+    "thumbnailUrl": "https://archive.org/services/img/Sintel",
+    "license": "CC BY 3.0 — Blender Foundation",
+    "sourceUrl": "https://archive.org/details/Sintel",
+    "archiveId": "Sintel",
+    "featured": true,
+    "backdropUrl": "/artwork/sintel.jpg"
+  },
+  {
+    "slug": "tears-of-steel",
+    "title": "Tears of Steel",
+    "year": 2012,
+    "description": "In a future Amsterdam overrun by robots, a group of scientists and warriors attempt to rescue the world by revisiting a painful breakup from the past.",
+    "genres": [
+      "Sci-Fi",
+      "Open Movies"
+    ],
+    "durationSeconds": 734,
+    "videoUrl": "https://archive.org/download/Tears-of-Steel/tears_of_steel_1080p.mp4",
+    "posterUrl": "https://archive.org/download/Tears-of-Steel/tos-poster.jpg",
+    "thumbnailUrl": "https://archive.org/services/img/Tears-of-Steel",
+    "license": "CC BY 3.0 — Blender Foundation",
+    "sourceUrl": "https://archive.org/details/Tears-of-Steel",
+    "archiveId": "Tears-of-Steel",
+    "featured": true,
+    "backdropUrl": "/artwork/tears-of-steel.jpg"
+  },
+  {
+    "slug": "big-buck-bunny",
+    "title": "Big Buck Bunny",
+    "year": 2008,
+    "description": "A giant, gentle rabbit is pushed too far by three bullying rodents and sets out on a hilarious, elaborate plan for revenge.",
+    "genres": [
+      "Animation",
+      "Open Movies",
+      "Comedy"
+    ],
+    "durationSeconds": 597,
+    "videoUrl": "https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",
+    "posterUrl": "https://archive.org/services/img/BigBuckBunny_124",
+    "thumbnailUrl": "https://archive.org/services/img/BigBuckBunny_124",
+    "license": "CC BY 3.0 — Blender Foundation",
+    "sourceUrl": "https://archive.org/details/BigBuckBunny_124",
+    "archiveId": "BigBuckBunny_124",
+    "featured": true,
+    "backdropUrl": "/artwork/big-buck-bunny.jpg"
+  },
+  {
+    "slug": "elephants-dream",
+    "title": "Elephants Dream",
+    "year": 2006,
+    "description": "Two strange characters explore a surreal, ever-shifting machine world — the very first open movie made entirely with open-source software.",
+    "genres": [
+      "Animation",
+      "Open Movies",
+      "Sci-Fi"
+    ],
+    "durationSeconds": 654,
+    "videoUrl": "https://archive.org/download/ElephantsDream/ed_1024.mp4",
+    "posterUrl": "https://archive.org/services/img/ElephantsDream",
+    "thumbnailUrl": "https://archive.org/services/img/ElephantsDream",
+    "license": "CC BY 2.5 — Blender Foundation",
+    "sourceUrl": "https://archive.org/details/ElephantsDream",
+    "archiveId": "ElephantsDream",
+    "featured": false,
+    "backdropUrl": "/artwork/elephants-dream.jpg"
+  },
+  {
+    "slug": "cosmos-laundromat",
+    "title": "Cosmos Laundromat",
+    "year": 2015,
+    "description": "On a desolate island, a suicidal sheep named Franck meets a mysterious salesman who offers him the gift of a lifetime.",
+    "genres": [
+      "Animation",
+      "Open Movies",
+      "Fantasy"
+    ],
+    "durationSeconds": 731,
+    "videoUrl": "https://archive.org/download/CosmosLaundromatFirstCycle/Cosmos%20Laundromat%20-%20First%20Cycle%20(1080p).mp4",
+    "posterUrl": "https://archive.org/services/img/CosmosLaundromatFirstCycle",
+    "thumbnailUrl": "https://archive.org/services/img/CosmosLaundromatFirstCycle",
+    "license": "CC BY 4.0 — Blender Foundation",
+    "sourceUrl": "https://archive.org/details/CosmosLaundromatFirstCycle",
+    "archiveId": "CosmosLaundromatFirstCycle",
+    "featured": false,
+    "backdropUrl": "/artwork/cosmos-laundromat.jpg"
+  },
+  {
+    "slug": "nosferatu",
+    "title": "Nosferatu",
+    "year": 1922,
+    "description": "F. W. Murnau's expressionist masterpiece: estate agent Hutter travels to Transylvania and unwittingly unleashes the vampire Count Orlok on his hometown.",
+    "genres": [
+      "Horror",
+      "Silent Classics"
+    ],
+    "durationSeconds": 5514,
+    "videoUrl": "https://archive.org/download/Nosferatu1922/Nosferatu.mp4",
+    "posterUrl": "https://archive.org/services/img/Nosferatu1922",
+    "thumbnailUrl": "https://archive.org/services/img/Nosferatu1922",
+    "license": "CC0 1.0 (Public Domain)",
+    "sourceUrl": "https://archive.org/details/Nosferatu1922",
+    "archiveId": "Nosferatu1922",
+    "featured": true,
+    "backdropUrl": "/artwork/nosferatu.jpg"
+  },
+  {
+    "slug": "night-of-the-living-dead",
+    "title": "Night of the Living Dead",
+    "year": 1968,
+    "description": "George A. Romero's landmark horror film: strangers barricade themselves in a Pennsylvania farmhouse as the recently dead rise to attack the living.",
+    "genres": [
+      "Horror"
+    ],
+    "durationSeconds": 5750,
+    "videoUrl": "https://archive.org/download/NightOfTheLivingDead1968-Restored/Notld1968Restoration-desktop.mp4",
+    "posterUrl": "https://archive.org/services/img/NightOfTheLivingDead1968-Restored",
+    "thumbnailUrl": "https://archive.org/services/img/NightOfTheLivingDead1968-Restored",
+    "license": "Public Domain Mark 1.0",
+    "sourceUrl": "https://archive.org/details/NightOfTheLivingDead1968-Restored",
+    "archiveId": "NightOfTheLivingDead1968-Restored",
+    "featured": true,
+    "backdropUrl": "/artwork/night-of-the-living-dead.jpg"
+  },
+  {
+    "slug": "carnival-of-souls",
+    "title": "Carnival of Souls",
+    "year": 1962,
+    "description": "After surviving a car accident, a church organist is drawn to an abandoned lakeside pavilion and haunted by a ghoulish figure only she can see.",
+    "genres": [
+      "Horror"
+    ],
+    "durationSeconds": 4980,
+    "videoUrl": "https://archive.org/download/CarnivalofSouls/CarnivalOfSouls.mp4",
+    "posterUrl": "https://archive.org/services/img/CarnivalofSouls",
+    "thumbnailUrl": "https://archive.org/services/img/CarnivalofSouls",
+    "license": "Public Domain",
+    "sourceUrl": "https://archive.org/details/CarnivalofSouls",
+    "archiveId": "CarnivalofSouls",
+    "featured": false,
+    "backdropUrl": "/artwork/carnival-of-souls.jpg"
+  },
+  {
+    "slug": "house-on-haunted-hill",
+    "title": "House on Haunted Hill",
+    "year": 1959,
+    "description": "Vincent Price stars as an eccentric millionaire who offers five guests $10,000 each to survive one night in a haunted mansion.",
+    "genres": [
+      "Horror"
+    ],
+    "durationSeconds": 4483,
+    "videoUrl": "https://archive.org/download/house_on_haunted_hill_ipod/house_on_haunted_hill.mp4",
+    "posterUrl": "https://archive.org/services/img/house_on_haunted_hill_ipod",
+    "thumbnailUrl": "https://archive.org/services/img/house_on_haunted_hill_ipod",
+    "license": "Public Domain",
+    "sourceUrl": "https://archive.org/details/house_on_haunted_hill_ipod",
+    "archiveId": "house_on_haunted_hill_ipod",
+    "featured": false,
+    "backdropUrl": "/artwork/house-on-haunted-hill.jpg"
+  },
+  {
+    "slug": "the-little-shop-of-horrors",
+    "title": "The Little Shop of Horrors",
+    "year": 1960,
+    "description": "A klutzy florist's assistant cultivates a strange plant with an appetite for human blood in Roger Corman's cult black comedy.",
+    "genres": [
+      "Comedy",
+      "Horror"
+    ],
+    "durationSeconds": 4288,
+    "videoUrl": "https://archive.org/download/TheLittleShopOfHorrors1960_765/TheLittleShopOfHorrors1960.mp4",
+    "posterUrl": "https://archive.org/services/img/TheLittleShopOfHorrors1960_765",
+    "thumbnailUrl": "https://archive.org/services/img/TheLittleShopOfHorrors1960_765",
+    "license": "Public Domain Mark 1.0",
+    "sourceUrl": "https://archive.org/details/TheLittleShopOfHorrors1960_765",
+    "archiveId": "TheLittleShopOfHorrors1960_765",
+    "featured": false,
+    "backdropUrl": "/artwork/the-little-shop-of-horrors.jpg"
+  },
+  {
+    "slug": "the-cabinet-of-dr-caligari",
+    "title": "The Cabinet of Dr. Caligari",
+    "year": 1920,
+    "description": "A sinister hypnotist uses a somnambulist to commit murders in this defining work of German Expressionist cinema.",
+    "genres": [
+      "Horror",
+      "Silent Classics"
+    ],
+    "durationSeconds": 3061,
+    "videoUrl": "https://archive.org/download/DasKabinettdesDoktorCaligariTheCabinetofDrCaligari/The_Cabinet_of_Dr._Caligari_512kb.mp4",
+    "posterUrl": "https://archive.org/services/img/DasKabinettdesDoktorCaligariTheCabinetofDrCaligari",
+    "thumbnailUrl": "https://archive.org/services/img/DasKabinettdesDoktorCaligariTheCabinetofDrCaligari",
+    "license": "Public Domain",
+    "sourceUrl": "https://archive.org/details/DasKabinettdesDoktorCaligariTheCabinetofDrCaligari",
+    "archiveId": "DasKabinettdesDoktorCaligariTheCabinetofDrCaligari",
+    "featured": false,
+    "backdropUrl": "/artwork/the-cabinet-of-dr-caligari.jpg"
+  },
+  {
+    "slug": "his-girl-friday",
+    "title": "His Girl Friday",
+    "year": 1940,
+    "description": "Cary Grant and Rosalind Russell trade rapid-fire wisecracks as a newspaper editor schemes to win back his ex-wife and star reporter.",
+    "genres": [
+      "Comedy"
+    ],
+    "durationSeconds": 5505,
+    "videoUrl": "https://archive.org/download/his_girl_friday/his_girl_friday.mp4",
+    "posterUrl": "https://archive.org/services/img/his_girl_friday",
+    "thumbnailUrl": "https://archive.org/services/img/his_girl_friday",
+    "license": "Public Domain",
+    "sourceUrl": "https://archive.org/details/his_girl_friday",
+    "archiveId": "his_girl_friday",
+    "featured": false,
+    "backdropUrl": "/artwork/his-girl-friday.jpg"
+  },
+  {
+    "slug": "the-general",
+    "title": "The General",
+    "year": 1926,
+    "description": "Buster Keaton plays a Southern train engineer who single-handedly pursues Union spies who have stolen his beloved locomotive.",
+    "genres": [
+      "Comedy",
+      "Silent Classics",
+      "Adventure"
+    ],
+    "durationSeconds": 4714,
+    "videoUrl": "https://archive.org/download/TheGeneral_201312/The-General-v2.mp4",
+    "posterUrl": "https://archive.org/services/img/TheGeneral_201312",
+    "thumbnailUrl": "https://archive.org/services/img/TheGeneral_201312",
+    "license": "Public Domain",
+    "sourceUrl": "https://archive.org/details/TheGeneral_201312",
+    "archiveId": "TheGeneral_201312",
+    "featured": false,
+    "backdropUrl": "/artwork/the-general.jpg"
+  },
+  {
+    "slug": "sherlock-jr",
+    "title": "Sherlock Jr.",
+    "year": 1924,
+    "description": "A movie projectionist who dreams of being a detective walks right into the film he is screening in Buster Keaton's inventive comedy.",
+    "genres": [
+      "Comedy",
+      "Silent Classics"
+    ],
+    "durationSeconds": 2648,
+    "videoUrl": "https://archive.org/download/MyMovie_20190318/My%20Movie.mp4",
+    "posterUrl": "https://archive.org/services/img/MyMovie_20190318",
+    "thumbnailUrl": "https://archive.org/services/img/MyMovie_20190318",
+    "license": "Public Domain",
+    "sourceUrl": "https://archive.org/details/MyMovie_20190318",
+    "archiveId": "MyMovie_20190318",
+    "featured": false,
+    "backdropUrl": "/artwork/sherlock-jr.jpg"
+  },
+  {
+    "slug": "detour",
+    "title": "Detour",
+    "year": 1945,
+    "description": "A down-on-his-luck pianist hitchhiking to Los Angeles is pulled into a nightmare of chance, guilt and blackmail in this lean noir classic.",
+    "genres": [
+      "Film Noir"
+    ],
+    "durationSeconds": 4058,
+    "videoUrl": "https://archive.org/download/Detour1945_201808/Detour%20(1945).mp4",
+    "posterUrl": "https://archive.org/services/img/Detour1945_201808",
+    "thumbnailUrl": "https://archive.org/services/img/Detour1945_201808",
+    "license": "Public Domain Mark 1.0",
+    "sourceUrl": "https://archive.org/details/Detour1945_201808",
+    "archiveId": "Detour1945_201808",
+    "featured": false,
+    "backdropUrl": "/artwork/detour.jpg"
+  },
+  {
+    "slug": "d-o-a",
+    "title": "D.O.A.",
+    "year": 1950,
+    "description": "Poisoned and with only days to live, an accountant races to find out who murdered him — and why.",
+    "genres": [
+      "Film Noir"
+    ],
+    "durationSeconds": 5005,
+    "videoUrl": "https://archive.org/download/DOA1950/DOA%20(1950).mp4",
+    "posterUrl": "https://archive.org/services/img/DOA1950",
+    "thumbnailUrl": "https://archive.org/services/img/DOA1950",
+    "license": "Public Domain",
+    "sourceUrl": "https://archive.org/details/DOA1950",
+    "archiveId": "DOA1950",
+    "featured": false,
+    "backdropUrl": "/artwork/d-o-a.jpg"
+  },
+  {
+    "slug": "kansas-city-confidential",
+    "title": "Kansas City Confidential",
+    "year": 1952,
+    "description": "Framed for an armored-car robbery, an ex-con follows the trail to Mexico to track down the masked gang who set him up.",
+    "genres": [
+      "Film Noir"
+    ],
+    "durationSeconds": 5956,
+    "videoUrl": "https://archive.org/download/Kansas_City_Confidential_1952/Kansas_City_Confidential.mp4",
+    "posterUrl": "https://archive.org/services/img/Kansas_City_Confidential_1952",
+    "thumbnailUrl": "https://archive.org/services/img/Kansas_City_Confidential_1952",
+    "license": "Public Domain Mark 1.0",
+    "sourceUrl": "https://archive.org/details/Kansas_City_Confidential_1952",
+    "archiveId": "Kansas_City_Confidential_1952",
+    "featured": false,
+    "backdropUrl": "/artwork/kansas-city-confidential.jpg"
+  },
+  {
+    "slug": "the-hitch-hiker",
+    "title": "The Hitch-Hiker",
+    "year": 1953,
+    "description": "Two friends on a fishing trip pick up a hitchhiker who turns out to be a psychopathic killer, in Ida Lupino's taut thriller.",
+    "genres": [
+      "Film Noir"
+    ],
+    "durationSeconds": 4248,
+    "videoUrl": "https://archive.org/download/IdaLupinostheHitch-hiker1953/Hitch-hikervo.mp4",
+    "posterUrl": "https://archive.org/services/img/IdaLupinostheHitch-hiker1953",
+    "thumbnailUrl": "https://archive.org/services/img/IdaLupinostheHitch-hiker1953",
+    "license": "Public Domain",
+    "sourceUrl": "https://archive.org/details/IdaLupinostheHitch-hiker1953",
+    "archiveId": "IdaLupinostheHitch-hiker1953",
+    "featured": false,
+    "backdropUrl": "/artwork/the-hitch-hiker.jpg"
+  },
+  {
+    "slug": "beat-the-devil",
+    "title": "Beat the Devil",
+    "year": 1953,
+    "description": "Humphrey Bogart leads a band of oddball swindlers stranded in Italy on their way to grab uranium-rich land in Africa.",
+    "genres": [
+      "Comedy",
+      "Adventure"
+    ],
+    "durationSeconds": 5357,
+    "videoUrl": "https://archive.org/download/BeatTheDevil1953/BeatTheDevil1954.mp4",
+    "posterUrl": "https://archive.org/services/img/BeatTheDevil1953",
+    "thumbnailUrl": "https://archive.org/services/img/BeatTheDevil1953",
+    "license": "Public Domain",
+    "sourceUrl": "https://archive.org/details/BeatTheDevil1953",
+    "archiveId": "BeatTheDevil1953",
+    "featured": false,
+    "backdropUrl": "/artwork/beat-the-devil.jpg"
+  },
+  {
+    "slug": "mclintock",
+    "title": "McLintock!",
+    "year": 1963,
+    "description": "John Wayne stars as a cattle baron whose estranged wife, Maureen O'Hara, returns to town to win custody of their daughter.",
+    "genres": [
+      "Western",
+      "Comedy"
+    ],
+    "durationSeconds": 7607,
+    "videoUrl": "https://archive.org/download/mclintok_widescreen/McLintock.mp4",
+    "posterUrl": "https://archive.org/services/img/mclintok_widescreen",
+    "thumbnailUrl": "https://archive.org/services/img/mclintok_widescreen",
+    "license": "Public Domain",
+    "sourceUrl": "https://archive.org/details/mclintok_widescreen",
+    "archiveId": "mclintok_widescreen",
+    "featured": false,
+    "backdropUrl": "/artwork/mclintock.jpg"
+  },
+  {
+    "slug": "metropolis",
+    "title": "Metropolis",
+    "year": 1927,
+    "description": "In a futuristic city split between wealthy planners and oppressed workers, the son of the city's ruler falls for a prophet of the underclass.",
+    "genres": [
+      "Sci-Fi",
+      "Silent Classics"
+    ],
+    "durationSeconds": 7118,
+    "videoUrl": "https://archive.org/download/Metropolis1927EnglishVersion/Metropolis_1927_English_Version.mp4",
+    "posterUrl": "https://archive.org/services/img/Metropolis1927EnglishVersion",
+    "thumbnailUrl": "https://archive.org/services/img/Metropolis1927EnglishVersion",
+    "license": "Public Domain",
+    "sourceUrl": "https://archive.org/details/Metropolis1927EnglishVersion",
+    "archiveId": "Metropolis1927EnglishVersion",
+    "featured": true,
+    "backdropUrl": "/artwork/metropolis.jpg"
+  },
+  {
+    "slug": "a-trip-to-the-moon",
+    "title": "A Trip to the Moon",
+    "year": 1902,
+    "description": "Georges Méliès' pioneering fantasy follows a group of astronomers who blast off in a capsule and land in the eye of the Man in the Moon.",
+    "genres": [
+      "Sci-Fi",
+      "Silent Classics"
+    ],
+    "durationSeconds": 772,
+    "videoUrl": "https://archive.org/download/ATripToTheMoonGeorgeMelies/A%20Trip%20to%20the%20Moon-George%20M%C3%A9li%C3%A8s.mp4",
+    "posterUrl": "https://archive.org/services/img/ATripToTheMoonGeorgeMelies",
+    "thumbnailUrl": "https://archive.org/services/img/ATripToTheMoonGeorgeMelies",
+    "license": "Public Domain",
+    "sourceUrl": "https://archive.org/details/ATripToTheMoonGeorgeMelies",
+    "archiveId": "ATripToTheMoonGeorgeMelies",
+    "featured": false,
+    "backdropUrl": "/artwork/a-trip-to-the-moon.jpg"
+  },
+  {
+    "slug": "the-lost-world",
+    "title": "The Lost World",
+    "year": 1925,
+    "description": "Professor Challenger leads an expedition to a remote Amazon plateau where dinosaurs still roam, in this stop-motion milestone.",
+    "genres": [
+      "Adventure",
+      "Sci-Fi",
+      "Silent Classics"
+    ],
+    "durationSeconds": 4565,
+    "videoUrl": "https://archive.org/download/TheLostWorld512/TheLostWorld512BW.mp4",
+    "posterUrl": "https://archive.org/services/img/TheLostWorld512",
+    "thumbnailUrl": "https://archive.org/services/img/TheLostWorld512",
+    "license": "Public Domain Mark 1.0",
+    "sourceUrl": "https://archive.org/details/TheLostWorld512",
+    "archiveId": "TheLostWorld512",
+    "featured": false,
+    "backdropUrl": "/artwork/the-lost-world.jpg"
+  },
+  {
+    "slug": "the-phantom-of-the-opera",
+    "title": "The Phantom of the Opera",
+    "year": 1925,
+    "description": "Lon Chaney is the disfigured genius who haunts the Paris Opera House and becomes obsessed with a young soprano.",
+    "genres": [
+      "Horror",
+      "Silent Classics"
+    ],
+    "durationSeconds": 6416,
+    "videoUrl": "https://archive.org/download/ThePhantomOfTheOpera_201612/The%20Phantom%20of%20the%20Opera.mp4",
+    "posterUrl": "https://archive.org/services/img/ThePhantomOfTheOpera_201612",
+    "thumbnailUrl": "https://archive.org/services/img/ThePhantomOfTheOpera_201612",
+    "license": "Public Domain",
+    "sourceUrl": "https://archive.org/details/ThePhantomOfTheOpera_201612",
+    "archiveId": "ThePhantomOfTheOpera_201612",
+    "featured": false,
+    "backdropUrl": "/artwork/the-phantom-of-the-opera.jpg"
+  },
+  {
+    "slug": "gulliver-s-travels",
+    "title": "Gulliver's Travels",
+    "year": 1939,
+    "description": "Fleischer Studios' animated feature sees shipwrecked Lemuel Gulliver wash ashore in Lilliput, a kingdom on the brink of war.",
+    "genres": [
+      "Animation",
+      "Adventure"
+    ],
+    "durationSeconds": 4586,
+    "videoUrl": "https://archive.org/download/GulliversTravels1939_201509/GulliversTravels-1939.mp4",
+    "posterUrl": "https://archive.org/services/img/GulliversTravels1939_201509",
+    "thumbnailUrl": "https://archive.org/services/img/GulliversTravels1939_201509",
+    "license": "Public Domain Mark 1.0",
+    "sourceUrl": "https://archive.org/details/GulliversTravels1939_201509",
+    "archiveId": "GulliversTravels1939_201509",
+    "featured": false,
+    "backdropUrl": "/artwork/gulliver-s-travels.jpg"
+  },
+  {
+    "slug": "plan-9-from-outer-space",
+    "title": "Plan 9 from Outer Space",
+    "year": 1959,
+    "description": "Aliens resurrect the dead to stop humanity from building a doomsday weapon in Ed Wood's gloriously low-budget cult favorite.",
+    "genres": [
+      "Sci-Fi",
+      "Horror"
+    ],
+    "durationSeconds": 4700,
+    "videoUrl": "https://archive.org/download/plan-9-from-outer-space/plan-9-from-outer-space.mp4",
+    "posterUrl": "https://archive.org/services/img/plan-9-from-outer-space",
+    "thumbnailUrl": "https://archive.org/services/img/plan-9-from-outer-space",
+    "license": "CC0 1.0 (Public Domain)",
+    "sourceUrl": "https://archive.org/details/plan-9-from-outer-space",
+    "archiveId": "plan-9-from-outer-space",
+    "featured": false,
+    "backdropUrl": "/artwork/plan-9-from-outer-space.jpg"
+  }
+]
