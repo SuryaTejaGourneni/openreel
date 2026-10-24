@@ -5,7 +5,11 @@ import { useState, useTransition } from "react";
 import { toggleWatchlistAction } from "@/app/actions";
 
 export default function WatchlistButton({ slug, initial, signedIn }: { slug: string; initial: boolean; signedIn: boolean }) {
-  const [inList, setInList] = useState(initial);
+  const [state, setState] = useState({ slug, initial, inList: initial });
+  if (state.slug !== slug || state.initial !== initial) {
+    setState({ slug, initial, inList: initial });
+  }
+  const inList = state.slug === slug ? state.inList : initial;
   const [pending, startTransition] = useTransition();
   const className =
     "flex items-center gap-2 rounded border border-white/40 bg-black/40 px-4 py-2.5 font-semibold hover:border-white disabled:opacity-60";
@@ -25,7 +29,8 @@ export default function WatchlistButton({ slug, initial, signedIn }: { slug: str
       aria-pressed={inList}
       onClick={() =>
         startTransition(async () => {
-          setInList(await toggleWatchlistAction(slug));
+          const saved = await toggleWatchlistAction(slug);
+          setState((s) => (s.slug === slug ? { ...s, inList: saved } : s));
         })
       }
     >
