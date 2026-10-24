@@ -9,7 +9,16 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
   const results = searchTitles(q);
 
   return (
-    <div className="px-4 pt-24 sm:px-8 lg:px-12">
+    <div className="px-4 pt-28 sm:px-8 md:pt-24 lg:px-12">
+      <form action="/search" role="search" className="mb-6">
+        <input
+          name="q"
+          defaultValue={q}
+          aria-label="Search titles"
+          placeholder="Search titles, genres, years"
+          className="w-full max-w-xl rounded border border-white/20 bg-white/5 px-4 py-3 placeholder:text-white/40 focus:border-white/60 focus:outline-none"
+        />
+      </form>
       <h1 className="mb-6 text-2xl font-semibold">
         {q ? (
           <>

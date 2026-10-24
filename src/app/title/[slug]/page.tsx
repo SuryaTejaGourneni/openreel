@@ -28,7 +28,7 @@ export default async function TitlePage({ params }: Props) {
         <Image src={title.backdropUrl} alt="" fill priority sizes="100vw" className="object-cover" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/95 via-black/60 to-black/10" />
         <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-[#0b0b0f] to-transparent" />
-        <div className="absolute bottom-[12%] left-0 max-w-3xl px-4 sm:px-8 lg:px-12">
+        <div className="absolute inset-x-0 bottom-[12%] max-w-3xl px-4 sm:px-8 lg:px-12">
           <h1 className="text-4xl font-black sm:text-6xl">{title.title}</h1>
           <p className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-white/70">
             <span>{title.year}</span>

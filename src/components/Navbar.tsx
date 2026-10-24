@@ -55,7 +55,7 @@ export default function Navbar({ user }: { user: { name: string } | null }) {
         scrolled ? "bg-[#0b0b0f]/95 shadow-lg backdrop-blur" : "bg-gradient-to-b from-black/80 to-transparent"
       }`}
     >
-      <nav className="mx-auto flex h-16 items-center gap-6 px-4 sm:px-8 lg:px-12">
+      <nav className="mx-auto flex h-16 items-center gap-4 px-4 sm:gap-6 sm:px-8 lg:px-12">
         <Link href="/" className="text-2xl font-black tracking-tight text-brand">
           OPENREEL
         </Link>
@@ -72,9 +72,17 @@ export default function Navbar({ user }: { user: { name: string } | null }) {
           ))}
         </ul>
         <div className="ml-auto flex items-center gap-4">
-          <Suspense>
-            <SearchBox />
-          </Suspense>
+          <div className="hidden sm:block">
+            <Suspense>
+              <SearchBox />
+            </Suspense>
+          </div>
+          <Link href="/search" aria-label="Search" className="text-white/80 hover:text-white sm:hidden">
+            <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden>
+              <circle cx="11" cy="11" r="7" />
+              <path d="m20 20-3.5-3.5" />
+            </svg>
+          </Link>
           {user ? (
             <form action={logout} className="flex items-center gap-3">
               <span className="hidden text-sm text-white/70 sm:inline">Hi, {user.name}</span>
@@ -87,6 +95,15 @@ export default function Navbar({ user }: { user: { name: string } | null }) {
           )}
         </div>
       </nav>
+      <ul className="no-scrollbar flex gap-5 overflow-x-auto px-4 pb-3 text-sm md:hidden">
+        {links.map((l) => (
+          <li key={l.href} className="shrink-0">
+            <Link href={l.href} className={pathname === l.href ? "font-semibold text-white" : "text-white/70"}>
+              {l.label}
+            </Link>
+          </li>
+        ))}
+      </ul>
     </header>
   );
 }

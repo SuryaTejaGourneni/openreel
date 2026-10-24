@@ -13,7 +13,7 @@ export default async function MyListPage() {
   const titles = getWatchlist(user.id);
 
   return (
-    <div className="px-4 pt-24 sm:px-8 lg:px-12">
+    <div className="px-4 pt-28 sm:px-8 md:pt-24 lg:px-12">
       <h1 className="mb-6 text-2xl font-semibold">My List</h1>
       {titles.length === 0 ? (
         <p className="text-white/60">
